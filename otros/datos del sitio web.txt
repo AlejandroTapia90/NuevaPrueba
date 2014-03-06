@@ -1,0 +1,33 @@
+Domain consultorioptja.webatu.com 
+Username a9028963 
+Password ******
+      
+Disk Usage 0 / 1500.0 MB 
+Bandwidth 100000 MB (100GB) 
+Home Root /home/a9028963 
+Server Name server37.000webhost.com
+IP Address 31.170.160.101 
+Apache ver. 2.2.19 (Unix) 
+PHP version 5.2.* 
+MySQL ver. 5.1 
+Activated On 2012-05-11 11:17 
+Status Active  
+
+base de datos
+
+MySQL database will be created in 1 minute. Use these details for your PHP scripts:
+
+$mysql_host = "mysql12.000webhost.com";
+$mysql_database = "a9028963_consul";
+$mysql_user = "a9028963_ale";
+$mysql_password = "alejandro1990";
+
+alejandro1990
+alejandro1990
+
+conexion a la base de datos
+
+
+ 'conn = New MySqlConnection
+        'conn.ConnectionString = "server= mysql12.000webhost.com; user id= mysql12.000webhost.com; password= alejandro1990; database= a9028963_consul"
+        'conn.Open()

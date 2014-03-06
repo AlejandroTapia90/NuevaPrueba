@@ -1,0 +1,15 @@
+ busqueda_dato = "SELECT nombre_maestro FROM registrar_maestro WHERE nombre_maestro LIKE '" & prueba.Text & "%'"
+        adaptador = New MySqlDataAdapter(busqueda_dato, conn)
+        Dim ds As New DataSet
+        'dataset = New DataSet
+        adaptador.Fill(ds, "registrar_maestro")
+        conn.Close()
+        tabla = ds.Tables("registrar_maestro")
+
+        Me.prueba.Items.Clear()
+        For Each dr As DataRow In ds.Tables(0).Rows
+            prueba.DroppedDown = True
+            Me.prueba.Items.Add(dr("nombre_maestro"))
+        Next
+
+        prueba.Select(prueba.Text.Length, 0)

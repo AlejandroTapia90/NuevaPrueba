@@ -1,0 +1,47 @@
+      mysql_select_db("patty");
+      mysql_query("insert into chuy(cuenta,contrasena)Values('$cuenta','$contrasena')");
+
+
+<form method="post">
+<TABLE BORDER=0>
+<TR>
+	<TD>cuenta</TD>
+	<TD>
+	<INPUT type=text name="$cuenta">
+	</TD>
+</TR>
+
+<TR>
+	<TD>contrasena</TD>
+	<TD>
+	<INPUT type=text name="$contrasena">
+	</TD>
+</TR>
+<TR>
+	
+	</TD>
+</TR>
+
+<TR>
+	<TD COLSPAN=2>
+	<INPUT type="submit" value="Enviar">
+	</TD>
+</TR>
+</TABLE>
+</FORM>
+
+
+
+
+y esto es lo que tiene que hacer
+Especificacion logica de TDA cadena
+Elementos:todos los carcteres alfabeticos(letras mayusculas y minusculas) caracteres numericos y caracteres especiales.
+Estructuta:hay una relacion lineal entre los carcateres
+dominio:existen entre o y 80 caracteres en cada valor del TDA cadena dominio seran todas aquellas secuencias que cumplan con las reglas
+Operaciones:
+-borrar inicio
+*utilidad:sirve para eliminar el primer caracter de cadena
+*entrada:cadena sobre la que se desea eliminar el primer caracter
+*salida:el caracter mas a la izquierda de la cadena y la cadena modificada
+*precondicion.la cadena tiene todos los caracteres menos el primero
+a ver si le entiendes
